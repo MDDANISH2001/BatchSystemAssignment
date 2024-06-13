@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("./assets/fonts/ClashDisplay-Regular.woff2") format("woff2"),
+    url("./assets/fonts/ClashDisplay-Regular.woff") format("woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("./assets/fonts/ClashDisplay-Bold.woff2") format("woff2"),
+    url("./assets/fonts/ClashDisplay-Bold.woff") format("woff");
+}
+
+html body {
+  display: flex;
+  justify-content: center;
+  border: 1px red solid;
+  width: 100%;
+  overflow-x: hidden;
+}
+#root {
+  width: 80%;
+}
+#decisionDiv {
+  background-image: url("./assets/Group 35896.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
